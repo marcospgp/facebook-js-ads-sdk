@@ -10,7 +10,7 @@ A Javascript SDK for [**Facebook Ads API**](https://developers.facebook.com/docs
 const adsSdk = require('facebook-ads-sdk');
 
 const accessToken = 'VALID_ACCESS_TOKEN'
-const accountId = 'AD_ACCOUNT_ID'
+const accountId = 'AD_ACCOUNT_ID' // Format: 'act_xxxxxxxxxxxxxxx'
 
 const FacebookAdsApi = adsSdk.FacebookAdsApi.init(accessToken)
 const AdAccount = adsSdk.AdAccount
